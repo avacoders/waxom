@@ -1,0 +1,38 @@
+body{
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    background-image: url("../image/dario-veronesi-lUO-BjCiZEA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: rgba(8, 8, 155, 0.45);
+    border-radius: 20px;
+    border: 0;
+    overflow: hidden;
+}
+
+.card-header{
+    background-color: #ffd500;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+label{
+    color: white;
+    margin-top: 20px;
+}
+input {
+    width: 100%;
+    padding: 7px;
+    border: 0;
+    outline: none;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Waxom</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/student.css">
+
+</head>
+<body>
+
+
+<section class="gradient">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 my-5">
+                <div class="card">
+                    <div class="card-header">Student Registration Form</div>
+                    <div class="card-body">
+                        <label for="fname">FIRSTNAME*:</label> <br>
+                        <input type="text" id="fname" name="fname" placeholder="First name">
+                        <label for="lname">LASTTNAME*:</label> <br>
+                        <input type="text" id="lname" placeholder="Last Name" name="lname">
+                        <label for="email">EMAIL*:</label> <br>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <label for="phone">PHONE*:</label> <br>
+                        <input type="phone" name="phone" id="phone" placeholder="Phone">
+                        <label for="password">PASSWORD*:</label><br>
+                        <div class="row px-2 justify-content-around">
+                            <input type="text" style="width: 45%;" name="password" placeholder="Password">
+                            <input type="text" style="width: 45%; margin-left: 5%;" name="confirm" placeholder="Confirm Password">
+                        </div>
+                            <label for="" style="margin-right: 20px">Gender</label>
+                            <input type="radio" style="width: 20px; margin: auto 0" name="gender" value="Male" id="male"> <label for="male">Male</label>
+                            <input type="radio" style="width: 20px; margin: auto 0 ;" width="20px" name="gender" value="Female" id="female"> <label for="female">Female</label>
+                        <input type="submit" class="submit">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

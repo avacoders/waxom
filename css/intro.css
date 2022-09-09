@@ -1,0 +1,40 @@
+h1{
+    color: orangered;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+h5{
+    text-align: center;
+    opacity: 0.8;
+}
+p{
+    font-size: 18px;
+}
+.img-overlay{
+    width: 30%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+.img-overlay img{
+    width: 100%;
+}
+.infos{
+    width: 80%;
+    margin: auto;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.icon{
+    margin: auto 0;
+}
+.text{
+    margin: auto;
+    font-size: 22px ;
+
+}

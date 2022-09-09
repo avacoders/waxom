@@ -1,0 +1,73 @@
+
+.img-overlay{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%  ;
+    margin: 0 auto;
+}
+
+h1{
+    color: orangered;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+h5{
+    text-align: center;
+    opacity: 0.8;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 30px auto;
+
+}
+
+.icons a{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: orangered;
+    border-radius: 50%;
+    outline: none;
+
+}
+.icons a img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.download{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 2px solid orangered;
+    transition: 0.2s;
+    margin: 50px auto;
+    display: table;
+}
+.download:hover{
+    text-decoration: none;
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+}
+
+.avatar{
+    width: 100%;
+    transition: 0.2s;
+
+}
+.avatar:hover{
+    transform: scale(1.05);
+}

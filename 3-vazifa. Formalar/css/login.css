@@ -1,0 +1,53 @@
+.gradient{
+    background-image: linear-gradient(30deg,cyan, darkviolet);
+    height: 100vh;
+    width: 100%;
+}
+
+.card{
+    border-radius: 10px;
+}
+.card-header{
+    background-color: transparent;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: gray;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+}
+.submit{
+    font-size: 22px;
+    color: white;
+    background-image: linear-gradient(90deg, #00c4ff, #0046c0, #c000ff);
+    border: 0;
+
+}
+.text{
+    font-size: 24px;
+    color: darkgray;
+    text-align: center;
+    margin: 20px;
+}
+.link{
+    width: 45%;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+
+.not{
+    margin: 40px 0!important;
+}

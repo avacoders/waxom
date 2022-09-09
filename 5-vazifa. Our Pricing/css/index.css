@@ -1,0 +1,66 @@
+body{
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.container{
+    width: 1140px;
+    margin: 50px auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.col{
+    width: 30%;
+    margin: auto 0;
+}
+
+.card{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 10px 0 gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: block;
+}
+h3{
+    border-bottom: 1px solid gray;
+    padding: 14px;
+    margin: 0;
+}
+
+h1{
+    font-size: 42px;
+    margin: 0;
+}
+
+a{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #48569a;
+    text-decoration: none;
+    border-radius: 5px;
+}
+small{
+    font-size: 22px;
+}
+.row .active{
+    color: white;
+    background-color: #48569a;
+    height: 440px;
+}
+.row .active a{
+    background-color: white;
+    color: #48569a;
+    bottom: 50px;
+
+}

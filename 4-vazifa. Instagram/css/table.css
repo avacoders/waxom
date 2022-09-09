@@ -1,0 +1,51 @@
+body{
+    font-family: Montserrat;
+}
+table{
+    margin: 50px auto;
+    /*display: block;*/
+}
+th{
+    text-align: center;
+    padding: 24px 40px;
+
+    text-transform: uppercase;
+}
+td{
+    padding: 24px 40px;
+    text-align: center;
+}
+table, tr, td{
+
+    border: 0!important;
+    border-spacing: 0!important;
+    border-collapse: unset  ;
+}
+tr:nth-child(even){
+
+    background: #e0e0e0;
+    transition: 0.2s;
+}
+
+tr:hover{
+    background-color: lightgray;
+}
+
+.status{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.status-progress{
+    background-color: #00b62c;
+    color: white;
+}
+.status-open{
+    background-color: orange;
+    color: #4d4d4d;
+}
+.status-onHold{
+    background-color: red;
+    color: white;
+
+}
